@@ -17,8 +17,7 @@ const SignIn: React.FC = () => {
   };
 
   return (
-    <div className="sign-in p-4 flex flex-col items-center">
-      <h2 className="text-2xl font-bold mb-4">Sign In</h2>
+    <div className="sign-in mt-8">
       <button
         onClick={handleGoogleSignIn}
         className="bg-white text-gray-700 font-semibold py-2 px-4 border border-gray-300 rounded shadow flex items-center"
